@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pedro Medeiros</title>
+    <link>https://www.example.com/</link>
+    <description>Recent content on Pedro Medeiros</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <copyright>Pedro Medeiros ©</copyright>
+    <lastBuildDate>Mon, 31 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.example.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Oxiteno S.A Indústria e Comércio</title>
+      <link>https://www.example.com/projetos/project7/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/projetos/project7/</guid>
+      <description>Experiência em pesquisa e desenvolvimento em agroquímicos na S.A Indústria e Comércio</description>
+    </item>
+    
+    <item>
+      <title>TauGC Bioinformática</title>
+      <link>https://www.example.com/projetos/project6/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/projetos/project6/</guid>
+      <description>Desenvolvimento de pipelines de análises ômicas e ferramentas de visualização de dados na TauGC Bioinformática</description>
+    </item>
+    
+    <item>
+      <title>Dez dicas rápidas para aproveitar o poder do ChatGPT em biologia computacional</title>
+      <link>https://www.example.com/projetos/project5/</link>
+      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/projetos/project5/</guid>
+      <description>Explorando o uso do ChatGPT no campo da biologia computacional</description>
+    </item>
+    
+    <item>
+      <title>Exploração de Lipases da Família LIP</title>
+      <link>https://www.example.com/projetos/project3/</link>
+      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/projetos/project3/</guid>
+      <description>Investigação das Lipases da família LIP, explorando eventos evolutivos interessantes e consequências biotecnológicas</description>
+    </item>
+    
+    <item>
+      <title>Podcast RSG Brasil</title>
+      <link>https://www.example.com/projetos/project4/</link>
+      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/projetos/project4/</guid>
+      <description>Participação na criação e divulgação do podcast da RSG Brasil</description>
+    </item>
+    
+    <item>
+      <title>Mestrado em Biossistemas na UFABC</title>
+      <link>https://www.example.com/projetos/project2/</link>
+      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/projetos/project2/</guid>
+      <description>Estudo da evolução de Aquaporinas em plantas</description>
+    </item>
+    
+    <item>
+      <title>Participações no iGEM</title>
+      <link>https://www.example.com/projetos/project1/</link>
+      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/projetos/project1/</guid>
+      <description>International Genetically Engineered Machine e outros</description>
+    </item>
+    
+    <item>
+      <title>Sobre</title>
+      <link>https://www.example.com/sobre/</link>
+      <pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/sobre/</guid>
+      <description>Pedro Medeiros</description>
+    </item>
+    
+    <item>
+      <title>Framework Diátaxis: Um guia para documentação eficiente na Bioinformática!</title>
+      <link>https://www.example.com/textos/diataxis/</link>
+      <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/textos/diataxis/</guid>
+      <description>Saiba mais sobre o framework que auxilia na construção de documentações</description>
+    </item>
+    
+    <item>
+      <title>Flask e Interfaces para Apps em Bioinformática</title>
+      <link>https://www.example.com/textos/flask/</link>
+      <pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/textos/flask/</guid>
+      <description>Saiba mais sobre o framework Flask e como criar interfaces em bioinformática</description>
+    </item>
+    
+    <item>
+      <title>O quê esperar da bioinformática? parte 2</title>
+      <link>https://www.example.com/textos/o_que_esperar_2/</link>
+      <pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/textos/o_que_esperar_2/</guid>
+      <description>Saiba como algumas boas práticas podem auxiliar os profissionais de bioinformática</description>
+    </item>
+    
+    <item>
+      <title>O quê esperar da bioinformática?</title>
+      <link>https://www.example.com/textos/o_que_esperar_1/</link>
+      <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/textos/o_que_esperar_1/</guid>
+      <description>O paradigma sobre o quê é bioinformática e o que esperar dessa área multidisciplinar</description>
+    </item>
+    
+    <item>
+      <title>UNIPROT: base de dados de proteínas</title>
+      <link>https://www.example.com/textos/uniprot/</link>
+      <pubDate>Fri, 03 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/textos/uniprot/</guid>
+      <description>Conheça o UNIPROT, uma base de dados integrada para quem trabalha com proteínas</description>
+    </item>
+    
+    <item>
+      <title>A quem pertence os dados de pesquisas financiadas por dinheiro público?</title>
+      <link>https://www.example.com/textos/opendata/</link>
+      <pubDate>Mon, 12 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/textos/opendata/</guid>
+      <description>Criação, curadoria e divulgação de dados abertos de pesquisas financiadas pela FAPESP.</description>
+    </item>
+    
+    <item>
+      <title>Quanto estamos deixando de $ganhar$ com a maconha?</title>
+      <link>https://www.example.com/textos/cannabis/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/textos/cannabis/</guid>
+      <description>O cultivo da cannabis e as oportunidades que surgem dele</description>
+    </item>
+    
+    <item>
+      <title>E se nenhum alimento fosse “natural”?</title>
+      <link>https://www.example.com/textos/alimento_natural/</link>
+      <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/textos/alimento_natural/</guid>
+      <description>A origem da nossa comida do dia a dia, domesticação e evolução</description>
+    </item>
+    
+    <item>
+      <title>Autodidatismo em Línguas</title>
+      <link>https://www.example.com/library/book3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/library/book3/</guid>
+      <description>Aprendizado autonomo de Idiomas através de ferramentas digitais</description>
+    </item>
+    
+    <item>
+      <title>Go/Baduk/Weiqi</title>
+      <link>https://www.example.com/library/book1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/library/book1/</guid>
+      <description>Jogo tático/estratégico de origem chinesa</description>
+    </item>
+    
+    <item>
+      <title>Mirmecologia e Termitologia Amadora</title>
+      <link>https://www.example.com/library/book2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/library/book2/</guid>
+      <description>Cultivo e Estudo de Formigas e Cupins por Amadores</description>
+    </item>
+    
+  </channel>
+</rss>

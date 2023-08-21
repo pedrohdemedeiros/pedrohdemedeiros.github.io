@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Synbio Brasil on Pedro Medeiros</title>
+    <link>https://www.example.com/projetos_tags/synbio-brasil/</link>
+    <description>Recent content in Synbio Brasil on Pedro Medeiros</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <copyright>Pedro Medeiros ©</copyright>
+    <lastBuildDate>Mon, 31 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.example.com/projetos_tags/synbio-brasil/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Participações no iGEM</title>
+      <link>https://www.example.com/projetos/project1/</link>
+      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/projetos/project1/</guid>
+      <description>International Genetically Engineered Machine e outros</description>
+    </item>
+    
+  </channel>
+</rss>

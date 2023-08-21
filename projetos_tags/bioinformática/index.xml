@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bioinformática on Pedro Medeiros</title>
+    <link>https://www.example.com/projetos_tags/bioinform%C3%A1tica/</link>
+    <description>Recent content in Bioinformática on Pedro Medeiros</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <copyright>Pedro Medeiros ©</copyright>
+    <lastBuildDate>Mon, 31 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.example.com/projetos_tags/bioinform%C3%A1tica/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TauGC Bioinformática</title>
+      <link>https://www.example.com/projetos/project6/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/projetos/project6/</guid>
+      <description>Desenvolvimento de pipelines de análises ômicas e ferramentas de visualização de dados na TauGC Bioinformática</description>
+    </item>
+    
+    <item>
+      <title>Dez dicas rápidas para aproveitar o poder do ChatGPT em biologia computacional</title>
+      <link>https://www.example.com/projetos/project5/</link>
+      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.example.com/projetos/project5/</guid>
+      <description>Explorando o uso do ChatGPT no campo da biologia computacional</description>
+    </item>
+    
+  </channel>
+</rss>

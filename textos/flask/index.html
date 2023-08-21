@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700;800&family=Frank+Ruhl+Libre:wght@200;300;400;500;600&family=Encode+Sans+Semi+Condensed:wght@400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/all.min.css">
+    <link disabled id="dark-mode-theme" rel="stylesheet" href="/css/dark.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/my_style.css">
+    
+    
+    
+    <title>Pedro Medeiros | Flask e Interfaces para Apps em Bioinformática</title>
+    <meta name="description" content="Saiba mais sobre o framework Flask e como criar interfaces em bioinformática">
+</head><body><nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="https://www.example.com">
+            
+            <b style="font-weight: 800;">PM</b>
+            
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto mt-2 mt-lg-0"><li class='nav-item '>
+                    <a class="nav-link" href="/projetos/"> CV/Projetos Profissionais</a>
+                </li>
+            <li class='nav-item '>
+                    <a class="nav-link" href="/textos/"> Textos</a>
+                </li>
+            <li class='nav-item '>
+                    <a class="nav-link" href="/library/"> Projetos e Atividades Pessoais de Interesse</a>
+                </li>
+            <li class='nav-item '>
+                    <a class="nav-link" href="/sobre/"> Sobre mim</a>
+                </li>
+             
+            <li class="nav-item px-2 pt-1">
+                <a class="btn fas fa-moon" id="dark-mode-toggle"></a>
+            </li>
+            </ul>
+        </div>
+    </div>
+</nav><div id="content">
+
+<div class="container" style="max-width: 800px;">
+    <div class="py-4 rounded-3">
+        <div class="container-fluid py-2">
+            <h1 class="display-2 mb-4 text-center">Flask e Interfaces para Apps em Bioinformática</h1>
+        </div>
+        
+        <p class="text-center fs-4 fst-italic serif">Saiba mais sobre o framework Flask e como criar interfaces em bioinformática</p>
+        
+        <div class="text-center pt-4">
+            
+        </div>
+    </div>
+    <div class="row justify-content-center mb-5">
+        <div class="col-12">
+            <p class="card-date m-0">
+                
+                
+                    Created May 13, 2022 - 
+                
+                Last updated: May 13, 2022
+            </p>
+            <hr class="dropdown-divider">
+            <div class="row justify-content-between">
+                <div class="col-sm-4">
+                    
+    
+    <span class="status">Evergreen 🌳</span>
+    
+
+                </div>
+                <div class="col-sm-8" style="text-align: right;">
+                    
+                
+                    
+                    <span class="badge tag-badge">edutaugc</span>
+                    
+                    <span class="badge tag-badge">bioinformatica</span>
+                    
+                    <span class="badge tag-badge">taugcbioinformatics</span>
+                    
+                    <span class="badge tag-badge">flask</span>
+                    
+                    <span class="badge tag-badge">bioinformatics</span>
+                    
+                    <span class="badge tag-badge">datascience</span>
+                    
+                    <span class="badge tag-badge">webdevelopment</span>
+                    
+                    <span class="badge tag-badge">pythonprogramming</span>
+                    
+                    <span class="badge tag-badge">biopython</span>
+                    
+                    <span class="badge tag-badge">flaskwebframework</span>
+                    
+                    <span class="badge tag-badge">technology</span>
+                    
+                    <span class="badge tag-badge">science</span>
+                    
+                    <span class="badge tag-badge">research</span>
+                    
+                
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-2">
+        <div class="serif main-content">
+            <blockquote>
+<p><strong>Disclaimer:</strong> Este texto foi originalmente escrito por mim durante o meu período de trabalho na <a href="https://www.taugc.com/">TauGC Bioinformatics</a>. Embora eu seja o autor do texto, os direitos de propriedade pertencem à <a href="https://www.taugc.com/">TauGC Bioinformatics</a> e as imagens não foram feitas por mim. Para acessar a publicação original, <a href="https://edu.taugc.com/blog/flask-e-interfaces-para-apps-em-bioinformatica/">clique aqui</a>.</p>
+</blockquote>
+<h1 id="saiba-mais-sobre-o-framework-flask-e-como-criar-interfaces-em-bioinformática">Saiba mais sobre o framework Flask e como criar interfaces em bioinformática</h1>
+<p><strong>Autor | Pedro Medeiros</strong></p>
+<p>Na comunidade de bioinformática, é amplamente reconhecido que o uso do terminal é a ferramenta mais poderosa para executar processos de maneira reprodutível e escalável. Embora IDEs como NeoVim e VsCode possam potencializar suas capacidades, a linha de comando é essencial.</p>
+<p>No entanto, como bioinformatas, nosso trabalho não é executado isoladamente, nossos sistemas servem a pessoas que precisam de interfaces intuitivas para lidar com dados no mundo real, coletar informações, executar análises, entre outras atividades.</p>
+<p>Embora a documentação de entrada de prompts possa ser útil, a interface gráfica simplificada muitas vezes é a melhor opção para permitir que o usuário se aproprie do sistema e interaja com ele.</p>
+<p>Nesse contexto, o Flask surge como uma opção que não pode ser descartada. Em linhas gerais, o Flask é um framework web em Python que permite criar aplicações com facilidade e rapidez. Ele é leve e flexível, permitindo criar aplicações que integram o processamento de informações em Python a uma interface HTML em navegadores.</p>
+<p>Além disso, ele é altamente personalizável, o que permite sua adaptação às necessidades específicas de cada projeto em bioinformática.</p>
+<p>Uma das grandes características do Flask é sua base em Python, uma linguagem amplamente compreendida e executada pela maioria dos bioinformatas. Isso faz com que sua integração com bibliotecas como BioPython, Numpy e Pandas seja intuitiva para a maioria do nosso público.</p>
+<div align="center">
+    <img src="/images/flask_img1.png" alt="Descrição da Imagem" width="50%" />
+</div>
+<p>Na prática, isso significa que muito do trabalho e do código que você já possui pode ser facilmente conectado a uma aplicação em Flask sem a necessidade de grandes adaptações.</p>
+<p>Além disso, o Flask possui bibliotecas próprias que facilitam o uso desses recursos para o contexto da web, especialmente no que tange à segurança.</p>
+<p>Embora outras plataformas como Shiny para R ou Streamlit para Python também possam ser utilizadas para esse fim, o Flask costuma ser mais abrangente do que essas duas plataformas, que são mais dedicadas a Data Science e Machine Learning, respectivamente.</p>
+<p>Na TauGC, por exemplo, nossa aplicação TaiGC utiliza dados de metagenômica por meio de IA para agregar significados a esse resultado, e toda a interface foi construída em Flask. Coletamos informações, manipulamos bancos de dados, integramos APIs e outras funções por meio do Python, mas todos os inputs e outputs passam de maneira intuitiva pelo Flask.</p>
+<p>Outra grande vantagem do Flask é sua capacidade de ser implantado em um servidor web, como o Apache ou o Nginx, sem grandes dificuldades, permitindo que as aplicações sejam acessadas a partir de qualquer dispositivo conectado à Internet.</p>
+<div align="center">
+    <img src="/images/flask_img2.png" alt="Descrição da Imagem" width="50%" />
+</div>
+<p>Isso torna as ferramentas e interfaces criadas em Flask altamente acessíveis. Além disso, existem muitas opções para que você possa implantar seu aplicativo experimentalmente de maneira gratuita.</p>
+<p>Em resumo, o Flask é uma excelente opção para o desenvolvimento de interfaces para aplicações em bioinformática.</p>
+<p>Sua flexibilidade, integração com outras bibliotecas Python e facilidade de implantação tornam-no uma ferramenta essencial para os pesquisadores e desenvolvedores que buscam criar soluções eficientes e acessíveis a outros profissionais.</p>
+<p>Saiba mais:</p>
+<ul>
+<li><a href="https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world">The Flask Mega-Tutorial</a></li>
+<li><a href="https://render.com/docs/deploy-flask#:~:text=You%20can%20deploy%20a%20Flask,app%20in%20a%20production%20setting">Faça o deploy experimental gratuito de sua aplicação com render</a></li>
+<li><a href="https://pythonbasics.org/deploy-flask-app/#:~:text=Flask%20deployment,it's%20free%20for%20small%20apps">Faça o deploy experimental gratuito de sua aplicação com o PythonAnywhere</a></li>
+</ul>
+
+        </div>
+    </div>
+</div>
+
+
+        </div><div class="container">
+    <div class="row justify-content-between">
+        <div class="col-sm-4">
+            <p class="footer">Pedro Medeiros © 2023 </p>
+        </div>
+        <div class="col-sm-6 d-flex flex-row-reverse">
+            
+            <a class="footer-social px-2"  href="https://twitter.com/PedroHdMedeiros" target="_blank"><i class="fab fa-twitter"></i></a>
+            
+            <a class="footer-social px-2"  href="https://github.com/pedrohdemedeiros" target="_blank"><i class="fab fa-github"></i></a>
+            
+            <a class="footer-social px-2"  href="https://www.linkedin.com/in/pedroh-medeiros/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            
+        </div>
+    </div>
+</div>
+<script src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script src="/js/isotope.pkgd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+<script src="/js/dark.js"></script>
+<script src="/js/isotope.js"></script>
+<script src="/js/mermaid.min.js"></script>
+<script>mermaid.initialize({ startOnLoad: true, securityLevel: 'loose'});</script></body>
+</html>
