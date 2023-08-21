@@ -2,81 +2,81 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Textos on Pedro Medeiros</title>
-    <link>https://www.example.com/textos/</link>
+    <link>https://pedrohdemedeiros.github.io/textos/</link>
     <description>Recent content in Textos on Pedro Medeiros</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <copyright>Pedro Medeiros ©</copyright>
-    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.example.com/textos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pedrohdemedeiros.github.io/textos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Framework Diátaxis: Um guia para documentação eficiente na Bioinformática!</title>
-      <link>https://www.example.com/textos/diataxis/</link>
+      <link>https://pedrohdemedeiros.github.io/textos/diataxis/</link>
       <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.example.com/textos/diataxis/</guid>
+      <guid>https://pedrohdemedeiros.github.io/textos/diataxis/</guid>
       <description>Saiba mais sobre o framework que auxilia na construção de documentações</description>
     </item>
     
     <item>
       <title>Flask e Interfaces para Apps em Bioinformática</title>
-      <link>https://www.example.com/textos/flask/</link>
+      <link>https://pedrohdemedeiros.github.io/textos/flask/</link>
       <pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.example.com/textos/flask/</guid>
+      <guid>https://pedrohdemedeiros.github.io/textos/flask/</guid>
       <description>Saiba mais sobre o framework Flask e como criar interfaces em bioinformática</description>
     </item>
     
     <item>
       <title>O quê esperar da bioinformática? parte 2</title>
-      <link>https://www.example.com/textos/o_que_esperar_2/</link>
+      <link>https://pedrohdemedeiros.github.io/textos/o_que_esperar_2/</link>
       <pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.example.com/textos/o_que_esperar_2/</guid>
+      <guid>https://pedrohdemedeiros.github.io/textos/o_que_esperar_2/</guid>
       <description>Saiba como algumas boas práticas podem auxiliar os profissionais de bioinformática</description>
     </item>
     
     <item>
       <title>O quê esperar da bioinformática?</title>
-      <link>https://www.example.com/textos/o_que_esperar_1/</link>
+      <link>https://pedrohdemedeiros.github.io/textos/o_que_esperar_1/</link>
       <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.example.com/textos/o_que_esperar_1/</guid>
+      <guid>https://pedrohdemedeiros.github.io/textos/o_que_esperar_1/</guid>
       <description>O paradigma sobre o quê é bioinformática e o que esperar dessa área multidisciplinar</description>
     </item>
     
     <item>
       <title>UNIPROT: base de dados de proteínas</title>
-      <link>https://www.example.com/textos/uniprot/</link>
+      <link>https://pedrohdemedeiros.github.io/textos/uniprot/</link>
       <pubDate>Fri, 03 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.example.com/textos/uniprot/</guid>
+      <guid>https://pedrohdemedeiros.github.io/textos/uniprot/</guid>
       <description>Conheça o UNIPROT, uma base de dados integrada para quem trabalha com proteínas</description>
     </item>
     
     <item>
       <title>A quem pertence os dados de pesquisas financiadas por dinheiro público?</title>
-      <link>https://www.example.com/textos/opendata/</link>
+      <link>https://pedrohdemedeiros.github.io/textos/opendata/</link>
       <pubDate>Mon, 12 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.example.com/textos/opendata/</guid>
+      <guid>https://pedrohdemedeiros.github.io/textos/opendata/</guid>
       <description>Criação, curadoria e divulgação de dados abertos de pesquisas financiadas pela FAPESP.</description>
     </item>
     
     <item>
       <title>Quanto estamos deixando de $ganhar$ com a maconha?</title>
-      <link>https://www.example.com/textos/cannabis/</link>
+      <link>https://pedrohdemedeiros.github.io/textos/cannabis/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.example.com/textos/cannabis/</guid>
+      <guid>https://pedrohdemedeiros.github.io/textos/cannabis/</guid>
       <description>O cultivo da cannabis e as oportunidades que surgem dele</description>
     </item>
     
     <item>
       <title>E se nenhum alimento fosse “natural”?</title>
-      <link>https://www.example.com/textos/alimento_natural/</link>
+      <link>https://pedrohdemedeiros.github.io/textos/alimento_natural/</link>
       <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.example.com/textos/alimento_natural/</guid>
+      <guid>https://pedrohdemedeiros.github.io/textos/alimento_natural/</guid>
       <description>A origem da nossa comida do dia a dia, domesticação e evolução</description>
     </item>
     
