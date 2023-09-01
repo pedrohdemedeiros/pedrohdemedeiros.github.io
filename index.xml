@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <copyright>Pedro Medeiros ©</copyright>
-    <lastBuildDate>Tue, 22 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pedrohdemedeiros.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pedrohdemedeiros.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Oxiteno S.A Indústria e Comércio</title>
       <link>https://pedrohdemedeiros.github.io/projetos/project7/</link>
@@ -56,7 +56,7 @@
     <item>
       <title>Mestrado em Biossistemas na UFABC</title>
       <link>https://pedrohdemedeiros.github.io/projetos/project2/</link>
-      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
       
       <guid>https://pedrohdemedeiros.github.io/projetos/project2/</guid>
       <description>Estudo da evolução de Aquaporinas em plantas</description>
@@ -69,6 +69,15 @@
       
       <guid>https://pedrohdemedeiros.github.io/projetos/project1/</guid>
       <description>International Genetically Engineered Machine e outros</description>
+    </item>
+    
+    <item>
+      <title>A quem pertence os dados de pesquisas financiadas por dinheiro público?</title>
+      <link>https://pedrohdemedeiros.github.io/textos/scripts/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pedrohdemedeiros.github.io/textos/scripts/</guid>
+      <description>Criação, curadoria e divulgação de scripts do meu mestrado.</description>
     </item>
     
     <item>
