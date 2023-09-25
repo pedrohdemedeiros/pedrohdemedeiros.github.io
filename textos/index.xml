@@ -9,6 +9,15 @@
     <copyright>Pedro Medeiros ©</copyright>
     <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pedrohdemedeiros.github.io/textos/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Explorando o Aprendizado Estatístico: Meu Estudo e Toolkit</title>
+      <link>https://pedrohdemedeiros.github.io/textos/aprendizado_estatistico/</link>
+      <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pedrohdemedeiros.github.io/textos/aprendizado_estatistico/</guid>
+      <description>Navegando entre Python, R, VsCode, WSL, Jupyter Notebooks, AppFlowy e outras Ferramentas em torno do Aprendizado Estatístico</description>
+    </item>
+    
+    <item>
       <title> Compartilhando Imperfeições: Meus Scripts de Mestrado em Bioinformática</title>
       <link>https://pedrohdemedeiros.github.io/textos/scripts/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>

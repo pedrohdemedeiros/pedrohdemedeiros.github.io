@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700;800&family=Frank+Ruhl+Libre:wght@200;300;400;500;600&family=Encode+Sans+Semi+Condensed:wght@400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/all.min.css">
+    <link disabled id="dark-mode-theme" rel="stylesheet" href="/css/dark.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/my_style.css">
+    
+    
+    
+    <title>Pedro Medeiros | Explorando o Aprendizado Estatístico: Meu Estudo e Toolkit</title>
+    <meta name="description" content="Navegando entre Python, R, VsCode, WSL, Jupyter Notebooks, AppFlowy e outras Ferramentas em torno do Aprendizado Estatístico">
+</head><body><nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="https://pedrohdemedeiros.github.io/">
+            
+            <b style="font-weight: 800;">PM</b>
+            
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto mt-2 mt-lg-0"><li class='nav-item '>
+                    <a class="nav-link" href="/projetos/"> CV/Projetos Profissionais</a>
+                </li>
+            <li class='nav-item '>
+                    <a class="nav-link" href="/textos/"> Textos</a>
+                </li>
+            <li class='nav-item '>
+                    <a class="nav-link" href="/library/"> Projetos e Atividades Pessoais de Interesse</a>
+                </li>
+            <li class='nav-item '>
+                    <a class="nav-link" href="/sobre/"> Sobre mim</a>
+                </li>
+             
+            <li class="nav-item px-2 pt-1">
+                <a class="btn fas fa-moon" id="dark-mode-toggle"></a>
+            </li>
+            </ul>
+        </div>
+    </div>
+</nav><div id="content">
+
+<div class="container" style="max-width: 800px;">
+    <div class="py-4 rounded-3">
+        <div class="container-fluid py-2">
+            <h1 class="display-2 mb-4 text-center">Explorando o Aprendizado Estatístico: Meu Estudo e Toolkit</h1>
+        </div>
+        
+        <p class="text-center fs-4 fst-italic serif">Navegando entre Python, R, VsCode, WSL, Jupyter Notebooks, AppFlowy e outras Ferramentas em torno do Aprendizado Estatístico</p>
+        
+        <div class="text-center pt-4">
+            
+        </div>
+    </div>
+    <div class="row justify-content-center mb-5">
+        <div class="col-12">
+            <p class="card-date m-0">
+                
+                
+                    Created Sep 25, 2023 - 
+                
+                Last updated: Sep 25, 2023
+            </p>
+            <hr class="dropdown-divider">
+            <div class="row justify-content-between">
+                <div class="col-sm-4">
+                    
+    
+    <span class="status">Seeding 🌱</span>
+    
+
+                </div>
+                <div class="col-sm-8" style="text-align: right;">
+                    
+                
+                    
+                    <span class="badge tag-badge">Estatística, Bioinformática, Aprendizado</span>
+                    
+                
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-2">
+        <div class="serif main-content">
+            <div style="text-align: center;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Skew_with_quartiles_and_box_plots.png" width="100%">
+  <br>
+  <small><i>Imagem por <a href="https://commons.wikimedia.org/wiki/File:Skew_with_quartiles_and_box_plots.png">Wikimedia Commons</a> sob licença <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></i></small>
+</div>
+<style>
+    .drop-cap p:first-letter {
+        font-size: 2.5em;
+        float: left;
+        margin-right: 0.1em;
+        line-height: 0.4;
+    }
+</style>
+<div class="drop-cap">
+<p>Ao longo da minha trajetória na bioinformática, deparei-me com algumas oportunidades de aprendizado que possuíam uma barreira de ativação não trivial. Particularmente para aqueles que, como eu, vieram de um background em ciências biológicas, certos obstáculos técnicos e conceituais podem surgir e a busca por ferramentas que nos ajudem a transpor esses desafios torna-se essencial. Com este post, meu objetivo é não apenas compartilhar reflexões sobre minha recente experiência com o livro &ldquo;An Introduction to Statistical Learning with Applications in Python&rdquo;, mas também apresentar ferramentas e táticas que considero valiosas para enfrentar problemas comuns na transição para a bioinformática. Sem mais demora, espero que possa ser útil. Os links para todas as ferramentas que eu citar estarão ao fim do artigo.</p>
+</div>
+<h2 id="1-um-livro-para-todos-mas-não-necessariamente-para-estatísticos">1. Um Livro para Todos, Mas Não Necessariamente para Estatísticos</h2>
+<p>Originalmente aclamado como um clássico para aprendizado estatístico em R, este livro agora se reinventa com uma abordagem voltada para Python. Adaptado para atender a uma ampla gama de profissionais, ele serve como um guia prático não apenas para estatísticos (ou, principalmente, para NÃO estatísticos), mas para qualquer um que busque aplicar estatística em sua área de atuação. Seja você um bioinformata, um engenheiro, um médico ou um cientista de dados, este livro oferece uma abordagem prática e acessível à aprendizagem estatística.</p>
+<p>A abordagem pode não agradar alguns: a simplificação de conceitos com certeza tem limitações, mas você não precisa saber montar um carro para poder pilotar um. Este livro vai te explicar como o carro funciona para que você possa pilotar, mas nada te impede de procurar um mecânico se precisar e talvez aprender um pouco de mecânica para não ser enganado. (se eu soubesse disso antes talvez não tivesse feito duas graduações, por sinal)</p>
+<h2 id="2-python-e-r-a-convergência-das-linguagens-na-bioinformática">2. Python e R: A Convergência das Linguagens na Bioinformática</h2>
+<p>Como já dito, originalmente o livro foi escrito com foco em R, uma linguagem intrinsecamente centrada em análises estatísticas. No entanto, a versatilidade e a ampla aplicabilidade do Python tornaram essencial uma adaptação que abrangesse essa linguagem. Não é por acaso que, em bioinformática, essa dualidade é a regra: a maioria dos pacotes é desenvolvida ou em R ou em Python. A obra, embora não mergulhe profundamente em todas as nuances, fornece instruções claras sobre comandos e ferramentas básicas para manipular matrizes, dataframes, gráficos e outros elementos essenciais. De maneira que você não tenha lá tanta experiência nas linguagens conseguirá acompanhar.</p>
+<h2 id="3-estudando-exercícios-com-chatgpt">3. Estudando Exercícios com ChatGPT</h2>
+<p>Ao abordar os exercícios do livro, não me limitei a consultar as <a href="https://botlnec.github.io/islp/">respostas não oficiais</a>. Em vez disso, adotei uma abordagem interativa com o ChatGPT (GPT-4), aplicando algumas técnicas de prompt engineering. (<a href="https://pedrohdemedeiros.github.io/projetos/project5/">Escrevi sobre isso num artigo publicado, vale a pena dar uma olhada</a>):</p>
+<ol>
+<li><strong>Contextualização:</strong> Instruo o ChatGPT (GPT-4) sobre o contexto, informando que estou estudando o livro e buscando um parceiro de diálogo para as questões. A ideia é que ele possa assumir uma persona que seja cuidadoso no sentido de explicar cada conceito usado.</li>
+<li><strong>Apresentação da Questão:</strong> Forneço ao ChatGPT(GPT-4) as perguntas do livro e apresento as respostas não oficiais para que ele tenha uma base de comparação.</li>
+<li><strong>Diálogo e exercício de respostas:</strong> Ítem a ítem deixo meus pensamentos mais livres para escrever, refletir e perguntar ao chat sem as travas que teria ao responder um questionário que seria avaliado para nota. Dessa maneira, sem compromisso com o erro, posso me concentrar em quais perguntas seriam mais essenciais para avaliar a questão</li>
+</ol>
+<p>Caso você queira dar uma olhada nas primeiras interações desse tipo, estou tentando registrar a interação no <a href="https://github.com/pedrohdemedeiros/islp_estudos">repositório do github dedicado a isso</a> de maneira experimental.</p>
+<h2 id="4-ferramentas-modernas-windows-subsystem-for-linux-vscode-jupyter-notebooks-e-appflowy">4. Ferramentas Modernas: Windows Subsystem for Linux, VsCode, Jupyter Notebooks e AppFlowy</h2>
+<p>Partindo da premissa que a maioria dos profissionais de bioinformática com background em biológicas teve pouca interação com o linux e IDEs (ambientes de desenvolvimento) anteriormente, escolher que ferramentas vão intermediar sua interação com o sistema são essenciais para que os degraus sejam suaves. Idealmente você poderia usar o terminal puro para tudo (e ter boas noções disso é importante haja visto que não são pucas situações onde tudo que você terá para trabalhar é um terminal), mas minha experiência com os ICs (alunos de iniciação científica) do laboratório em que atuo mostram que essas ferramentas podem ajudar.</p>
+<p>Tenho utilizado o Windows Subsystem for Linux (WSL) para ter acesso a um ambiente Linux diretamente no meu sistema Windows, o que tem facilita para alunos que não estão acostumados e compartilham do medo de instalarem o linux diretamente na máquina. Ao contrário do que os mais puristas dizem, o WSL está com cada vez menos limitações e é um degrau importante para um primeiro contato com o linux. Além disso, o VsCode tem sido meu editor de código de escolha, oferecendo uma interface amigável e uma série de extensões úteis.</p>
+<p>Essas duas indicações na verdade são para culminar em uma coisa: Jupyter Notebooks. O livro fornece <a href="https://github.com/intro-stat-learning/ISLP_labs">todos os laboratórios</a> sob a forma de Jupyter Notebooks para serem baixados. Longe de querer explicar estensivamente o que são notebooks, para esse texto basta você saber que eles são formas que permitirão um ciclo de tentativa/erro muito rápido e tranquilo, facilitando o pensamento expeculativo e experimentação (que basicamente é tudo que um aluno interessado precisa). Facilmente você integra código, texto e gráficos a partir dessa ferramenta, de maneira que foi uma escolha muito feliz dos autores.</p>
+<figure style="text-align: center;">
+  <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*V_-jIywD4jcrTsXca5_fQQ.png"  width="90%">
+   <figcaption style="font-size: 0.8em;"><i><a href="https://towardsdatascience.com/how-to-improve-your-workflow-with-vs-code-and-jupyter-notebook-f96777f8f1bd">Uso de código, texto e gráficos ao mesmo tempo. Clique para fonte</a></i></figcaption>
+</figure>
+<p>Há muitas maneiras que não essa de você utilizar notebooks, em um curso no qual pude ser instrutor enquanto trabalhava na TauGC utilizamos o <a href="https://colab.google/">Google Colab</a> com bastante sucesso. Caso seja essa sua onda, pode surfar sem medo, mas eu realmente vejo virtudes em instalar o jupyter na sua máquina local e utilizar a través do Linux/WSL/VsCode.</p>
+<p>Por fim, ainda que de forma menos essencial, uma boa plataforma de notas pode ajudar muito. Tive ótimas experiências com o Notion enquanto trabalhava, mas ele possui pelo menos um grave defeito: ele é pago, haha. Para os mesmos fins tenho utilizado o AppFlowy, gratuito e open source, com bastante sucesso para um uso pessoal, sem interação com outras pessoas e sem coneção com a nuvem.</p>
+<hr>
+<p>Em conclusão, o livro &ldquo;An Introduction to Statistical Learning with Applications in Python&rdquo; aparenta ser um bom um guia didático, mais uma ferramenta que me orienta através do caminho da bioinformática e do aprendizado estatístico. Ao combinar teoria com prática, ele oferece uma abordagem acessível que é raramente encontrada em literaturas similares. As ferramentas e táticas que recomendei ao longo deste texto não só servem ao meu entendimento, mas podem te equipar com habilidades práticas para enfrentar desafios futuros bastante diversos.</p>
+<p>Caso goste do conteúdo do meu trabalho, visite também minhas redes (links na parte inferior) ou entre em contato!</p>
+<h2 id="abraços">Abraços!</h2>
+<p><strong>Sumário de Recursos e Ferramentas:</strong></p>
+<ul>
+<li><strong>Livro:</strong> <a href="https://www.statlearning.com/">&ldquo;An Introduction to Statistical Learning with Applications in Python&rdquo;</a></li>
+<li><strong>Laboratórios:</strong> <a href="https://github.com/intro-stat-learning/ISLP_labs">Repositório com os laboratórios</a></li>
+<li><strong>Ferramentas de Diálogo e Estudo:</strong> <a href="https://chat.openai.com/">ChatGPT</a> e <a href="https://botlnec.github.io/islp/">Respostas Não Oficiais</a></li>
+<li><strong>Ferramenta de Organização:</strong> <a href="https://appflowy.io/">AppFlowy</a></li>
+<li><strong>Ambiente de Desenvolvimento e Editor de Código:</strong> <a href="https://learn.microsoft.com/pt-br/windows/wsl/about">Windows Subsystem for Linux (WSL)</a> e <a href="https://code.visualstudio.com/">VsCode</a></li>
+<li><strong>Ambiente de Análise e Documentação:</strong> <a href="https://jupyter.org/">Jupyter Notebooks</a></li>
+</ul>
+</div>
+<p align="center">
+  <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png">
+</p>
+
+        </div>
+    </div>
+</div>
+
+
+        </div><div class="container">
+    <div class="row justify-content-between">
+        <div class="col-sm-4">
+            <p class="footer">Pedro Medeiros © 2023 </p>
+        </div>
+        <div class="col-sm-6 d-flex flex-row-reverse">
+            
+            <a class="footer-social px-2"  href="https://twitter.com/PedroHdMedeiros" target="_blank"><i class="fab fa-twitter"></i></a>
+            
+            <a class="footer-social px-2"  href="https://github.com/pedrohdemedeiros" target="_blank"><i class="fab fa-github"></i></a>
+            
+            <a class="footer-social px-2"  href="https://www.linkedin.com/in/pedroh-medeiros/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            
+            <a class="footer-social px-2"  href="mailto:pedrohdemedeiros@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+            
+        </div>
+    </div>
+</div>
+<script src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script src="/js/isotope.pkgd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+<script src="/js/dark.js"></script>
+<script src="/js/isotope.js"></script>
+<script src="/js/mermaid.min.js"></script>
+<script>mermaid.initialize({ startOnLoad: true, securityLevel: 'loose'});</script></body>
+</html>
