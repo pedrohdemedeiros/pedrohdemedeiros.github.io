@@ -7,105 +7,91 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <copyright>Pedro Medeiros ©</copyright>
-    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pedrohdemedeiros.github.io/textos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://pedrohdemedeiros.github.io/textos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Uso de dados de Terceiros: O que você faz quando ninguém pode te impedir que faça?</title>
+      <link>https://pedrohdemedeiros.github.io/textos/uso_de_dados_terceiros/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://pedrohdemedeiros.github.io/textos/uso_de_dados_terceiros/</guid>
+      <description>Reflexões sobre o Uso Responsável de Dados de Terceiros e as Implicações Éticas e Legais</description>
+    </item>
     <item>
       <title>Explorando o Aprendizado Estatístico: Meu Estudo e Toolkit</title>
       <link>https://pedrohdemedeiros.github.io/textos/aprendizado_estatistico/</link>
       <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://pedrohdemedeiros.github.io/textos/aprendizado_estatistico/</guid>
       <description>Navegando entre Python, R, VsCode, WSL, Jupyter Notebooks, AppFlowy e outras Ferramentas em torno do Aprendizado Estatístico</description>
     </item>
-    
     <item>
       <title> Compartilhando Imperfeições: Meus Scripts de Mestrado em Bioinformática</title>
       <link>https://pedrohdemedeiros.github.io/textos/scripts/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://pedrohdemedeiros.github.io/textos/scripts/</guid>
       <description>Criação, curadoria e divulgação de scripts do meu mestrado.</description>
     </item>
-    
     <item>
       <title>Bioinformática e Além: Celebrando o Passado e Moldando o Futuro</title>
       <link>https://pedrohdemedeiros.github.io/textos/novo_comeco/</link>
       <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://pedrohdemedeiros.github.io/textos/novo_comeco/</guid>
       <description>Da Bancada ao Byte: Uma Reflexão sobre Meus Anos de Dedicação e o Caminho Adiante</description>
     </item>
-    
     <item>
       <title>Framework Diátaxis: Um guia para documentação eficiente na Bioinformática!</title>
       <link>https://pedrohdemedeiros.github.io/textos/diataxis/</link>
       <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://pedrohdemedeiros.github.io/textos/diataxis/</guid>
       <description>Saiba mais sobre o framework que auxilia na construção de documentações</description>
     </item>
-    
     <item>
       <title>Flask e Interfaces para Apps em Bioinformática</title>
       <link>https://pedrohdemedeiros.github.io/textos/flask/</link>
       <pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://pedrohdemedeiros.github.io/textos/flask/</guid>
       <description>Saiba mais sobre o framework Flask e como criar interfaces em bioinformática</description>
     </item>
-    
     <item>
       <title>O quê esperar da bioinformática? parte 2</title>
       <link>https://pedrohdemedeiros.github.io/textos/o_que_esperar_2/</link>
       <pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://pedrohdemedeiros.github.io/textos/o_que_esperar_2/</guid>
       <description>Saiba como algumas boas práticas podem auxiliar os profissionais de bioinformática</description>
     </item>
-    
     <item>
       <title>O quê esperar da bioinformática?</title>
       <link>https://pedrohdemedeiros.github.io/textos/o_que_esperar_1/</link>
       <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://pedrohdemedeiros.github.io/textos/o_que_esperar_1/</guid>
       <description>O paradigma sobre o quê é bioinformática e o que esperar dessa área multidisciplinar</description>
     </item>
-    
     <item>
       <title>UNIPROT: base de dados de proteínas</title>
       <link>https://pedrohdemedeiros.github.io/textos/uniprot/</link>
       <pubDate>Fri, 03 Sep 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://pedrohdemedeiros.github.io/textos/uniprot/</guid>
       <description>Conheça o UNIPROT, uma base de dados integrada para quem trabalha com proteínas</description>
     </item>
-    
     <item>
       <title>A quem pertence os dados de pesquisas financiadas por dinheiro público?</title>
       <link>https://pedrohdemedeiros.github.io/textos/opendata/</link>
       <pubDate>Mon, 12 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://pedrohdemedeiros.github.io/textos/opendata/</guid>
       <description>Criação, curadoria e divulgação de dados abertos de pesquisas financiadas pela FAPESP.</description>
     </item>
-    
     <item>
       <title>Quanto estamos deixando de $ganhar$ com a maconha?</title>
       <link>https://pedrohdemedeiros.github.io/textos/cannabis/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://pedrohdemedeiros.github.io/textos/cannabis/</guid>
       <description>O cultivo da cannabis e as oportunidades que surgem dele</description>
     </item>
-    
     <item>
       <title>E se nenhum alimento fosse “natural”?</title>
       <link>https://pedrohdemedeiros.github.io/textos/alimento_natural/</link>
       <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://pedrohdemedeiros.github.io/textos/alimento_natural/</guid>
       <description>A origem da nossa comida do dia a dia, domesticação e evolução</description>
     </item>
-    
   </channel>
 </rss>

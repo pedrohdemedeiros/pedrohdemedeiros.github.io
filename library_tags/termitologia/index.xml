@@ -6,15 +6,14 @@
     <description>Recent content in Termitologia on Pedro Medeiros</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <copyright>Pedro Medeiros ©</copyright><atom:link href="https://pedrohdemedeiros.github.io/library_tags/termitologia/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Pedro Medeiros ©</copyright>
+    <atom:link href="https://pedrohdemedeiros.github.io/library_tags/termitologia/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mirmecologia e Termitologia Amadora</title>
       <link>https://pedrohdemedeiros.github.io/library/book2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://pedrohdemedeiros.github.io/library/book2/</guid>
       <description>Cultivo e Estudo de Formigas e Cupins por Amadores</description>
     </item>
-    
   </channel>
 </rss>
