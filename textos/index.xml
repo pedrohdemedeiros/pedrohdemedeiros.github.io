@@ -10,6 +10,13 @@
     <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://pedrohdemedeiros.github.io/textos/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Insights Lab: Um Mergulho na Ciência Colaborativa na LATAM</title>
+      <link>https://pedrohdemedeiros.github.io/textos/research_camp/</link>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://pedrohdemedeiros.github.io/textos/research_camp/</guid>
+      <description>Experiência de duas semanas no Uruguai no Insights Lab, um evento que une pesquisadores das áreas biológicas, dados e matemática, organizado pelo Instituto Roche com apoio do Instituto Serrapilheira, focado em desafios de pesquisa inovadores.</description>
+    </item>
+    <item>
       <title>Uso de dados de Terceiros: O que você faz quando ninguém pode te impedir que faça?</title>
       <link>https://pedrohdemedeiros.github.io/textos/uso_de_dados_terceiros/</link>
       <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
@@ -71,13 +78,6 @@
       <pubDate>Fri, 03 Sep 2021 00:00:00 +0000</pubDate>
       <guid>https://pedrohdemedeiros.github.io/textos/uniprot/</guid>
       <description>Conheça o UNIPROT, uma base de dados integrada para quem trabalha com proteínas</description>
-    </item>
-    <item>
-      <title>A quem pertence os dados de pesquisas financiadas por dinheiro público?</title>
-      <link>https://pedrohdemedeiros.github.io/textos/opendata/</link>
-      <pubDate>Mon, 12 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://pedrohdemedeiros.github.io/textos/opendata/</guid>
-      <description>Criação, curadoria e divulgação de dados abertos de pesquisas financiadas pela FAPESP.</description>
     </item>
     <item>
       <title>Quanto estamos deixando de $ganhar$ com a maconha?</title>
