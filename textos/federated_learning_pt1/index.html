@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700;800&family=Frank+Ruhl+Libre:wght@200;300;400;500;600&family=Encode+Sans+Semi+Condensed:wght@400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/all.min.css">
+    <link disabled id="dark-mode-theme" rel="stylesheet" href="/css/dark.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/my_style.css">
+    
+    
+    
+    <title>Pedro Medeiros | Federated Learning e Bioinformática: Pesquisa no mundo dos dados sensíveis e diplomacia dos dados - Parte 1 : Introdução ao Federated Learning</title>
+    <meta name="description" content="Explore os conceitos de Federated Learning aplicados à Bioinformática, abordando a importância da privacidade dos dados e o impacto na diplomacia dos dados.">
+</head><body><nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="https://pedrohdemedeiros.github.io/">
+            
+            <b style="font-weight: 800;">PM</b>
+            
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto mt-2 mt-lg-0"><li class='nav-item '>
+                    <a class="nav-link" href="/projetos/"> CV/Projetos Profissionais</a>
+                </li>
+            <li class='nav-item '>
+                    <a class="nav-link" href="/textos/"> Textos</a>
+                </li>
+            <li class='nav-item '>
+                    <a class="nav-link" href="/library/"> Projetos e Atividades Pessoais de Interesse</a>
+                </li>
+            <li class='nav-item '>
+                    <a class="nav-link" href="/sobre/"> Sobre mim</a>
+                </li>
+             
+            <li class="nav-item px-2 pt-1">
+                <a class="btn fas fa-moon" id="dark-mode-toggle"></a>
+            </li>
+            </ul>
+        </div>
+    </div>
+</nav><div id="content">
+
+<div class="container" style="max-width: 800px;">
+    <div class="py-4 rounded-3">
+        <div class="container-fluid py-2">
+            <h1 class="display-2 mb-4 text-center">Federated Learning e Bioinformática: Pesquisa no mundo dos dados sensíveis e diplomacia dos dados - Parte 1 : Introdução ao Federated Learning</h1>
+        </div>
+        
+        <p class="text-center fs-4 fst-italic serif">Explore os conceitos de Federated Learning aplicados à Bioinformática, abordando a importância da privacidade dos dados e o impacto na diplomacia dos dados.</p>
+        
+        <div class="text-center pt-4">
+            
+        </div>
+    </div>
+    <div class="row justify-content-center mb-5">
+        <div class="col-12">
+            <p class="card-date m-0">
+                
+                
+                    Created Mar 18, 2024 - 
+                
+                Last updated: Mar 18, 2024
+            </p>
+            <hr class="dropdown-divider">
+            <div class="row justify-content-between">
+                <div class="col-sm-4">
+                    
+    
+    <span class="status">Evergreen 🌳</span>
+    
+
+                </div>
+                <div class="col-sm-8" style="text-align: right;">
+                    
+                
+                    
+                    <span class="badge tag-badge">Federated Learning</span>
+                    
+                    <span class="badge tag-badge">Bioinformática</span>
+                    
+                    <span class="badge tag-badge">Privacidade de Dados</span>
+                    
+                    <span class="badge tag-badge">Diplomacia dos Dados</span>
+                    
+                    <span class="badge tag-badge">Pesquisa Biomédica</span>
+                    
+                
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-2">
+        <div class="serif main-content">
+            <h1 id="federated-learning-e-bioinformática-pesquisa-no-mundo-dos-dados-sensíveis-e-diplomacia-dos-dados---parte-1-introdução-ao-federated-learning">Federated Learning e Bioinformática: Pesquisa no mundo dos dados sensíveis e diplomacia dos dados - Parte 1: Introdução ao Federated Learning</h1>
+<p><strong>Por Pedro Medeiros e João Vitor F. Cavalcante</strong></p>
+<p>Durante o <em>Evento Insights Lab</em>, promovido pelo Instituto Roche e com a presença de pesquisadores brasileiros apoiados pelo Instituto Serrapilheira, a experimentação com a tecnologia de <strong>Federated Learning/Analysis</strong> foi um destaque. Este texto, dividido em duas partes, explora seu conceito, possibilidades e possíveis usos para a bioinformática — especialmente no âmbito biomédico — e o impacto que isso tem sobre a diplomacia dos dados.</p>
+<h2 id="definição-e-princípios-básicos-do-federated-learning">Definição e princípios básicos do Federated Learning</h2>
+<p>O conceito de <strong>Aprendizagem Federada (Federated Learning)</strong> surgiu como uma solução para os desafios relacionados à privacidade dos dados, eficiência da comunicação e descentralização no treinamento de modelos de aprendizado de máquina. A ideia foi introduzida e popularizada pela Google em 2017, com o objetivo de treinar modelos de aprendizado de máquina diretamente nos dispositivos dos usuários, como smartphones, sem a necessidade de enviar seus dados pessoais para servidores centrais.</p>
+<p>Entre os motivadores para seu desenvolvimento estava a descentralização da geração de dados em dispositivos móveis, no entanto, regulações de proteção dos dados de usuários como o <strong>Regulamento Geral de Proteção de Dados (GDPR)</strong> europeu influenciaram fortemente o aspecto de privacidade e acesso hierárquico possibilitados pela tecnologia.</p>
+<p>Portanto, a Aprendizagem Federada pode ser descrita como um modelo de aprendizagem de máquina que permite treinar um algoritmo de inteligência artificial (IA) em múltiplos dispositivos ou servidores descentralizados sem a necessidade de centralizar os dados em um único local. As operações são enviadas aos clientes, ou instituições federadas, que realizam o processamento no seu dado local, e o que é retornado é apenas os pesos do modelo, garantindo privacidade completa. Este modelo é especialmente útil para situações em que os dados são sensíveis, pessoais ou confidenciais, e não podem ser compartilhados ou transferidos devido a preocupações com privacidade, segurança ou regulamentações de dados.</p>
+<h2 id="visão-geral-da-bioinformática-e-sua-relevância-para-a-pesquisa-biomédica-moderna">Visão geral da bioinformática e sua relevância para a pesquisa biomédica moderna</h2>
+<p>Para quem trabalha com bioinformática, não é novidade a manipulação de grandes volumes de dados, a variabilidade biológica e a necessidade de grandes grupos estatísticos para pesquisa sempre foi uma pressão sobre a área. Para lidar com esses desafios, as soluções encontradas até agora eram o uso de grandes bancos abertos (valendo-se de uma estratégia Open Data), como o EMBL e o NCBI, uso de supercomputadores ou clusters oriundos de consórcios acadêmicos e uma forte pressão sobre a eficiência dos algoritmos de análise. Todos esses recursos e táticas, como pode ser notado, implicam em centralização dos dados e das análises, o que implica em certas limitações e aumento do trabalho em estudos cuja geração das informações não necessariamente são centralizadas.</p>
+<h2 id="breve-explicação-gráfica-acerca-do-diferencial-na-federalização-das-análises">Breve explicação gráfica acerca do diferencial na federalização das análises</h2>
+<p>O risco de que os dados genéticos e de saúde sejam usados para discriminar indivíduos em vários contextos, incluindo emprego, seguros e acesso a serviços, as dificuldades e barreiras éticas na busca da obtenção do consentimento informado em diversos contextos somados a desafios políticos, regulatórios a serem endereçados de maneira técnica acabam, por muitas vezes, impedir que a abordagem bioinformática à pesquisa biomédica realizem o seu potencial já permitido tecnologicamente.</p>
+<h2 id="natureza-sensível-dos-dados-biomédicos-e-questões-de-privacidade">Natureza sensível dos dados biomédicos e questões de privacidade</h2>
+<p>A proteção desses dados é fundamental não apenas para a segurança e privacidade dos indivíduos envolvidos, mas também para manter a confiança pública na ciência biomédica e na pesquisa. São várias as regulamentações e acordos que versam sobre o tema, de maneira que um texto só para isso seria necessário. Para fins de referência</p>
+<p>, coloco abaixo alguns dos acordos e regulamentações que, direta ou indiretamente, promovem o desenvolvimento de tecnologias para acesso parcial dos dados para fins de proteção dos indivíduos e da sociedade em diversos países:</p>
+<ul>
+<li>Regulamento Geral de Proteção de Dados (GDPR)</li>
+<li>Lei de Portabilidade e Responsabilidade de Seguro Saúde (HIPAA)</li>
+<li>Declaração de Helsinque</li>
+<li>Diretrizes do Conselho de Organizações Internacionais de Ciências Médicas (CIOMS)</li>
+<li>Lei Geral de Proteção de Dados Pessoais (LGPD)</li>
+</ul>
+<p>Fora esses desafios específicos da área, há um contexto mais geral que impulsiona a sociedade, governos e organizações a pensarem em acessos mais controlados aos dados. A internet nasce e se desenvolve em parte em torno de valores conectados à contracultura americana dos anos 70/80: abertura, compartilhamento, liberdade e afins. A grosso modo poderíamos resumir a história até o contexto de Open Data que até hoje é vigente e impulsiona muitas pesquisas no mundo todo (o dos autores deste texto incluso), no entanto, a evolução das disparidades nas capacidades de aproveitamento desses dados e estímulos econômicos levam a questionamentos bastante razoáveis sobre o uso e destinos dos dados que são produzidos. Dados passam a ser, agora, valiosos e, portanto, ativos a serem negociados entre corporações e governos, dando origem à chamada “Diplomacia dos dados”.</p>
+<p>A Diplomacia dos Dados reflete um paradigma emergente nas relações internacionais, onde a posse, o acesso e o controle sobre dados transformam-se em elementos estratégicos vitais para a segurança nacional, desenvolvimento econômico e influência global. Neste contexto, os dados não são apenas ativos econômicos, mas também ferramentas de poder e negociação, moldando novas formas de cooperação, competição e conflito entre nações. Governos e organizações internacionais buscam estabelecer normas e acordos para regular o fluxo transfronteiriço de dados, equilibrando interesses de privacidade, inovação e segurança.</p>
+<p>Além da diplomacia de dados, outro ponto enfrentado pelas atuais estratégias de gerenciamento de dados é a proveniência de dados (data provenance), ou como os dados foram originados, transformados e disponibilizados. Com grandes modelos de aprendizado e dados abertos, essa informação costuma se perder na linha de processamento, o que é bastante problemático. O aprendizado federado, por possibilitar operações nos locais de origem dos dados, também pode facilitar a descrição de sua proveniência.</p>
+<p><strong>Essa foi a parte 1 do texto acerca de Federated Learning e Bioinformática. Em breve postaremos a parte 2 com exemplos de projetos, considerações éticas, políticas e afins.</strong></p>
+<p><em>Até a próxima!</em></p>
+
+        </div>
+    </div>
+</div>
+
+
+        </div><div class="container">
+    <div class="row justify-content-between">
+        <div class="col-sm-4">
+            <p class="footer">Pedro Medeiros © 2024 </p>
+        </div>
+        <div class="col-sm-6 d-flex flex-row-reverse">
+            
+            <a class="footer-social px-2"  href="https://twitter.com/PedroHdMedeiros" target="_blank"><i class="fab fa-twitter"></i></a>
+            
+            <a class="footer-social px-2"  href="https://github.com/pedrohdemedeiros" target="_blank"><i class="fab fa-github"></i></a>
+            
+            <a class="footer-social px-2"  href="https://www.linkedin.com/in/pedroh-medeiros/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            
+            <a class="footer-social px-2"  href="mailto:pedrohdemedeiros@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+            
+        </div>
+    </div>
+</div>
+<script src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script src="/js/isotope.pkgd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+<script src="/js/dark.js"></script>
+<script src="/js/isotope.js"></script>
+<script src="/js/mermaid.min.js"></script>
+<script>mermaid.initialize({ startOnLoad: true, securityLevel: 'loose'});</script></body>
+</html>
