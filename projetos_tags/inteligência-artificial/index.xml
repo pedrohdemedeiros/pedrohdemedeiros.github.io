@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <copyright>Pedro Medeiros ©</copyright>
-    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://pedrohdemedeiros.github.io/projetos_tags/intelig%C3%AAncia-artificial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SecureBio</title>
+      <link>https://pedrohdemedeiros.github.io/projetos/project8/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://pedrohdemedeiros.github.io/projetos/project8/</guid>
+      <description>Experiência como Independent Contractor na SecureBio focada em Inteligência Artificial e Biossegurança</description>
+    </item>
     <item>
       <title>TauGC Bioinformática</title>
       <link>https://pedrohdemedeiros.github.io/projetos/project6/</link>

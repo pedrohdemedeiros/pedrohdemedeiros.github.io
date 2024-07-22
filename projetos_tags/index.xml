@@ -7,8 +7,36 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <copyright>Pedro Medeiros ©</copyright>
-    <lastBuildDate>Fri, 01 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://pedrohdemedeiros.github.io/projetos_tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Biossegurança</title>
+      <link>https://pedrohdemedeiros.github.io/projetos_tags/biosseguran%C3%A7a/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://pedrohdemedeiros.github.io/projetos_tags/biosseguran%C3%A7a/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ChatGPT</title>
+      <link>https://pedrohdemedeiros.github.io/projetos_tags/chatgpt/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://pedrohdemedeiros.github.io/projetos_tags/chatgpt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Inteligência Artificial</title>
+      <link>https://pedrohdemedeiros.github.io/projetos_tags/intelig%C3%AAncia-artificial/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://pedrohdemedeiros.github.io/projetos_tags/intelig%C3%AAncia-artificial/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLM</title>
+      <link>https://pedrohdemedeiros.github.io/projetos_tags/llm/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://pedrohdemedeiros.github.io/projetos_tags/llm/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Aquaporinas</title>
       <link>https://pedrohdemedeiros.github.io/projetos_tags/aquaporinas/</link>
@@ -42,13 +70,6 @@
       <link>https://pedrohdemedeiros.github.io/projetos_tags/bioinform%C3%A1tica/</link>
       <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
       <guid>https://pedrohdemedeiros.github.io/projetos_tags/bioinform%C3%A1tica/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>ChatGPT</title>
-      <link>https://pedrohdemedeiros.github.io/projetos_tags/chatgpt/</link>
-      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://pedrohdemedeiros.github.io/projetos_tags/chatgpt/</guid>
       <description></description>
     </item>
     <item>
@@ -112,13 +133,6 @@
       <link>https://pedrohdemedeiros.github.io/projetos_tags/git/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       <guid>https://pedrohdemedeiros.github.io/projetos_tags/git/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Inteligência Artificial</title>
-      <link>https://pedrohdemedeiros.github.io/projetos_tags/intelig%C3%AAncia-artificial/</link>
-      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://pedrohdemedeiros.github.io/projetos_tags/intelig%C3%AAncia-artificial/</guid>
       <description></description>
     </item>
     <item>

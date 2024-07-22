@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <copyright>Pedro Medeiros ©</copyright>
-    <lastBuildDate>Mon, 25 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://pedrohdemedeiros.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SecureBio</title>
+      <link>https://pedrohdemedeiros.github.io/projetos/project8/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://pedrohdemedeiros.github.io/projetos/project8/</guid>
+      <description>Experiência como Independent Contractor na SecureBio focada em Inteligência Artificial e Biossegurança</description>
+    </item>
     <item>
       <title>Oxiteno S.A Indústria e Comércio</title>
       <link>https://pedrohdemedeiros.github.io/projetos/project7/</link>
@@ -57,6 +64,13 @@
       <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
       <guid>https://pedrohdemedeiros.github.io/projetos/project1/</guid>
       <description>International Genetically Engineered Machine e outros</description>
+    </item>
+    <item>
+      <title>Meu primeiro projeto artístico publicado: Cartas e Códigos: Espiritualidade e Magia na Era (Bio)tecnológica</title>
+      <link>https://pedrohdemedeiros.github.io/textos/cards_and_codes/</link>
+      <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://pedrohdemedeiros.github.io/textos/cards_and_codes/</guid>
+      <description>Exploração das interseções entre espiritualidade, magia e biotecnologia, e suas implicações éticas e culturais.</description>
     </item>
     <item>
       <title>Federated Learning e Bioinformática: Parte 2 - Desafios e Possibilidades</title>
